@@ -1,10 +1,21 @@
 import java.util.Scanner;
 
 public class Saluda {
-	
-	
+
 	static // variable para almacenar el nombre
-	String nombre= "";
+	String nombre = "";
+
+	// metodos getter y setter
+
+
+
+	public static String getNombre() {
+		return nombre;
+	}
+
+	public static void setNombre(String nombre) {
+		Saluda.nombre = nombre;
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -19,7 +30,6 @@ public class Saluda {
 		nombre = entrada.nextLine();
 		
 		
-
 	}
 
 }
