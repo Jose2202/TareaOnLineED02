@@ -18,7 +18,7 @@ public class Saluda {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		/*// TODO Auto-generated method stub
 		
 		// Metodo Scanner pedir nombre por teclado
 		
@@ -27,8 +27,30 @@ public class Saluda {
 		// Pedimos el nombre
 		
 		System.out.println("Ingresa tu nombre");
+		nombre = entrada.nextLine();*/
+		
+		// llamamos al metodo creado
+		
+		pideNombre();
+		
+		
+	}
+	
+	// Creamos el metdo pideNombre()
+	
+	public static void pideNombre() {
+		
+		Scanner entrada = new Scanner (System.in);
+		
+		// variable para almacenar el nombre
+		String nombre= "";
+		
+		System.out.println("Ingresa tu nombre");
 		nombre = entrada.nextLine();
 		
+		// mostrar el nombre
+		
+		System.out.println("Tu nombre es: " + nombre);
 		
 	}
 
